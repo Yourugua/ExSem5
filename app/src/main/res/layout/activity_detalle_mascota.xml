@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="@dimen/activity_vertical_margin">
+
+<TextView
+    android:id="@+id/tvNombre"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/nombre"
+    android:textStyle="bold"
+    android:textSize="@dimen/nombre_mascota"/>
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/top">
+
+    <ImageView
+        android:id="@+id/tvfoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hueso_blanco"/>
+
+</LinearLayout>
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/top">
+
+    <ImageView
+        android:id="@+id/imgLikes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hueso_amarillo"/>
+    <TextView
+        android:id="@+id/tvLike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/plikes"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/left"
+        android:textStyle="bold"
+        android:textSize="@dimen/nombre_mascota"
+        android:layout_marginStart="@dimen/left" />
+
+</LinearLayout>
+
+
+</LinearLayout>

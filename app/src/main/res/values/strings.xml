@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ExSem5</string>
+
+   <string name="nombre">Sergio Alba</string>
+    <string name="pnombre">nombre</string>
+    <string name="plikes">0</string>
+<!--    <string name="likes">Likes</string>
+    <string name="titulo_paisaje_manana">Paisaje Campo Mañana</string>-->
+
+    TODO: Remove or change this placeholder text
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
